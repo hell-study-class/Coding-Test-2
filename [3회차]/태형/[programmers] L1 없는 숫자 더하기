@@ -1,0 +1,10 @@
+class Solution {
+    public int solution(int[] numbers) {
+        int result = 9 * 10 / 2;
+        for (int num : numbers) {
+            result -= num;
+        }
+        
+        return result;
+    }
+}
